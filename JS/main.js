@@ -1,15 +1,14 @@
 'use strict'
 
-        //funcion que genera numero aleatorio
+        
 
     function getRandomNumber(max) {
         return Math.ceil(Math.random() * max);
-
         }
         const randomNumber = getRandomNumber(100);
         console.log (randomNumber);
 
-        //me traigo los elementos del html
+        
 
         const inputBottonElement = document.querySelector('.js-inputbtn');
         const inputValueElement = document.querySelector('.js-inputvalue');
