@@ -21,7 +21,7 @@
 
             if (inputValue > randomNumber) {
                 boxPistaElement.innerHTML = "Demasiado alto";
-                console.log ()
+                
             }
             else if (inputValue < randomNumber) {
                 boxPistaElement.innerHTML = "Demasiado bajo";
